@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jdlogo{
+    position: absolute;
+    height: 100px;
+}
+.studentlogo{
+    position: absolute;
+    height: 100px;
+    left: 92%;
+}
+.collegename{
+    position: absolute;
+    left: 30%;
+    color: aliceblue;
+}
