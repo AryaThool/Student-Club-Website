@@ -1,10 +1,12 @@
 body{
+    background-image: url("/homepagebg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .jdlogo{
     position: absolute;
     height: 100px;
+
 }
 .studentlogo{
     position: absolute;
@@ -15,4 +17,16 @@ body{
     position: absolute;
     left: 30%;
     color: aliceblue;
+}
+.deanmessage{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    height: 12cm;
+    width: 32.5cm;
+    border-style: solid;
+    border-radius: 50px;
+    background-size: 10px;
+    background-color: rgb(253, 253, 253);
+    opacity: 0.5;
 }
