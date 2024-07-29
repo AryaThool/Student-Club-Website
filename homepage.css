@@ -1,21 +1,25 @@
 body{
-    background-image: url("/homepagebg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(30deg,#040084,#0141cf,#1874d2);
 }
 .jdlogo{
     position: absolute;
     height: 100px;
-
+    left: 10%;
 }
 .studentlogo{
     position: absolute;
     height: 100px;
-    left: 92%;
+    left: 85%;
 }
 .collegename{
     position: absolute;
     left: 30%;
+    color: aliceblue;
+}
+.description{
+  position: absolute;
+    left: 40%;
+    top: 2cm;
     color: aliceblue;
 }
 .deanmessage{
@@ -30,32 +34,45 @@ body{
     background-color: rgb(253, 253, 253);
     opacity: 0.5;
 }
+.rec1{
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  background-color: #e78f14;
+  left: 83.5%;
+  top: 90%;
+}
+.admin{
+  background-image: linear-gradient(45deg,rgb(0, 0, 0),rgb(255, 255, 255));
+}
 .adminhead{
     position: absolute;
-    left: 40%;
-    top: 22.5cm;
+    left: 42.5%;
+    top: 21cm;
 }
 .card {
     position: absolute;
     top: 25cm;
-    left: 2.5cm;
-    width: 190px;
-    height: 120px;
+    left: 6.5cm;
+    width: 250px;
+    height: 150px;
     background-color: #1941d4;
     text-align: center;
-    border: 10px solid #e78f14;
+    border: 5px solid #e78f14;
     border-radius: 20px;
    /* box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff; */
     transition: 0.5s;
+    z-index: 1;
   }
   
   .card:hover {
     height: 400px;
+    z-index: 2;
   }
   
   .icon {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: red;
     font-size: 30px;
     background-color: #eee;
@@ -88,24 +105,26 @@ body{
   .card1 {
     position: absolute;
     top: 25cm;
-    left: 12.5cm;
-    width: 190px;
-    height: 120px;
+    left: 17cm;
+    width: 250px;
+    height: 150px;
     background-color: #1941d4;
     text-align: center;
-    border: 10px solid #e78f14;
+    border: 5px solid #e78f14;
     border-radius: 20px;
    /* box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff; */
     transition: 0.5s;
+    z-index: 1;
   }
   
   .card1:hover {
     height: 400px;
+    z-index: 2;
   }
   
   .icon1 {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: red;
     font-size: 30px;
     background-color: #eee;
@@ -138,24 +157,26 @@ body{
   .card2 {
     position: absolute;
     top: 25cm;
-    left: 22.5cm;
-    width: 190px;
-    height: 120px;
+    left: 27cm;
+    width: 250px;
+    height: 150px;
     background-color: #1941d4;
     text-align: center;
-    border: 10px solid #e78f14;
+    border: 5px solid #e78f14;
     border-radius: 20px;
    /* box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff; */
     transition: 0.5s;
+    z-index: 1;
   }
   
   .card2:hover {
     height: 400px;
+    z-index: 2;
   }
   
   .icon2 {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: red;
     font-size: 30px;
     background-color: #eee;
@@ -186,25 +207,27 @@ body{
 
   .card3 {
     position: absolute;
-    top: 25cm;
-    left: 32.5cm;
-    width: 190px;
-    height: 120px;
+    top: 32cm;
+    left: 6.5cm;
+    width: 250px;
+    height: 150px;
     background-color: #1941d4;
     text-align: center;
-    border: 10px solid #e78f14;
+    border: 5px solid #e78f14;
     border-radius: 20px;
    /* box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff; */
     transition: 0.5s;
+    z-index: 1;
   }
   
   .card3:hover {
     height: 400px;
+    z-index: 2;
   }
   
   .icon3 {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: red;
     font-size: 30px;
     background-color: #eee;
@@ -236,25 +259,27 @@ body{
 
   .card4 {
     position: absolute;
-    top: 32.5cm;
-    left: 7.5cm;
-    width: 190px;
-    height: 120px;
+    top: 32cm;
+    left: 17cm;
+    width: 250px;
+    height: 150px;
     background-color: #1941d4;
     text-align: center;
-    border: 10px solid #e78f14;
+    border: 5px solid #e78f14;
     border-radius: 20px;
    /* box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff; */
     transition: 0.5s;
+    z-index: 1;
   }
   
   .card4:hover {
     height: 400px;
+    z-index: 2;
   }
   
   .icon4 {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: red;
     font-size: 30px;
     background-color: #eee;
@@ -286,25 +311,27 @@ body{
 
   .card5 {
     position: absolute;
-    top: 32.5cm;
-    left: 27.5cm;
-    width: 190px;
-    height: 120px;
+    top: 32cm;
+    left: 27cm; 
+    width: 250px;
+    height: 150px;
     background-color: #1941d4;
     text-align: center;
-    border: 10px solid #e78f14;
+    border: 5px solid #e78f14;
     border-radius: 20px;
    /* box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff; */
     transition: 0.5s;
+    z-index: 1;
   }
   
   .card5:hover {
     height: 400px;
+    z-index: 2;
   }
   
   .icon5 {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: red;
     font-size: 30px;
     background-color: #eee;
@@ -332,3 +359,115 @@ body{
   .content5 h3 {
     text-shadow: 2px 2px 0px #fff;
   } 
+
+  .clubs{
+    position: absolute;
+    top: 42cm;
+    left: 45%;
+  }
+  
+  .clublogo{
+    position: absolute;
+    top: 45cm;
+  }
+  .dance{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 5.5cm;
+    border-radius: 50%;
+  }
+  .music{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 10.5cm;
+    border-radius: 50%;
+  }
+  .drama{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 15.5cm;
+    border-radius: 50%;
+  }
+  .gaming{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 20.5cm;
+    border-radius: 50%;
+  }
+  .coading{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 25.5cm;
+    border-radius: 50%;
+  }
+  .robotics{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 30.5cm;
+    border-radius: 50%;
+  }
+  .vsa{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5cm;
+    left: 5.5cm;
+    border-radius: 50%;
+  }
+  .creative{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5cm;
+    left: 10.5cm;
+    border-radius: 50%;
+  }
+  .nexus{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5cm;
+    left: 15.5cm;
+    border-radius: 50%;
+  }
+  .fitness{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5cm;
+    left: 20.5cm;
+    border-radius: 50%;
+  }
+  .event{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5cm;
+    left: 25.5cm;
+    border-radius: 50%;
+  }
+  .publicity{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 5cm;
+    left: 30.5cm;
+    border-radius: 50%;
+  }
+  .footer{
+    border-style: solid;
+    border-color: #e78f14;
+    background-color: #eee;
+    position: absolute;
+    top: 60cm;
+    width: 100%;
+  }
+  .gmaps{
+    left: 27cm;
+  }
